@@ -1,3 +1,10 @@
+# A is starting field position of play (ranges from 0 to 100 (so your own 25 would be 75. 0 would be a touchdown))
+# B is time remaining in quarter
+# C is yards to first down
+# D is down number
+# E is starting score differential
+# F is aggressive play indication
+
 #This function loops and repeatedly calls the function full_drive until someone scores.
 #One of the main things this function does is keep track of which team has the ball.
 game_simulator <- function(A, B, C, D, E, F, t=NA) {
